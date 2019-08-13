@@ -1,0 +1,131 @@
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #fff;
+  text-align: center;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main {
+  max-width: 800px;
+  margin: auto auto;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto !important;
+}
+
+li {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li b {
+  width: 100%;
+}
+
+ul {
+  padding:0;
+}
+
+.gradient {
+    border-radius: 8px;
+}
+
+.title{
+  height: 40px;
+  margin: auto 0 auto 0;
+  padding: 0;
+}
+
+.description {
+  height: 200px;
+}
+
+.year {
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.fa {
+  cursor: pointer;
+  padding-left: 3px;
+}
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+/* .year {
+  margin-top: 350px;
+  margin-bottom: 5px;
+} */
+
+img {
+  width: 128px;
+  height: auto;
+}
+
+
+a {
+  color: #ed621d;
+}
+
+.movieBox {
+  height: 320px;
+  padding: 0px 20px 0px 20px;
+
+}
+
+.ID {
+  color: #ed621d;
+  font-weight: bold;
+}
+
+.reviewBox {
+  width: 800px;
+  height: 320px;
+   overflow:scroll;
+   overflow-x:hidden;
+   text-align: center;
+}
+
+.review {
+  font-size: 10px;
+  width: 95%;
+  margin: 10px auto auto auto;
+}
+
+button {
+  border: #ed621d;
+  margin-top: 10px;
+  height: 30px;
+  width: 30%;
+}
+
+.bottomHalf {
+  margin: 20px 10px;
+}
+
+.nextButton {
+  margin-left: 20px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: #ed621d;
+}
+
+.backButton {
+  margin-right: 20px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: #ed621d;
+}
